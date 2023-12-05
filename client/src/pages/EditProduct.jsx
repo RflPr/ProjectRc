@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Card } from 'react-bootstrap';
+import Header from '../components/Header';
 
 const EditProduct = () => {
   const [productId, setProductId] = useState("");
@@ -37,6 +38,7 @@ const EditProduct = () => {
 
   return (
     <div className="center-container-edit">
+      <Header />
       <Card className="custom-card">
       <Card.Body>
       <h2>Editar Produto</h2>

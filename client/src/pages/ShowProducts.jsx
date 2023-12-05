@@ -3,6 +3,7 @@ import axios from "axios";
 import { getAuth, signOut } from "firebase/auth";
 import { Navigate } from "react-router-dom";
 import { Card } from "react-bootstrap";
+import Header from "../components/Header";
 
 const ShowProducts = () => {
   const auth = getAuth();
@@ -53,6 +54,7 @@ const ShowProducts = () => {
 
   return (
     <div className="center-container-show">
+      <Header />
       <h2>Lista de Produtos</h2>
       {loading && <p>Carregando...</p>}
       {!loading && (

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Inter:wght@300&family=Kufam:wght@600;900&family=Montserrat:wght@300&family=Poppins:wght@700&family=Signika&display=swap');
+/*lista de fontes
+font-family: 'DM Serif Display', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kufam', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika', sans-serif;
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background: #1ec0c5;
+    
+}
+
+nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    top: 0;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    color : #ebe4e4;
+    margin: 0 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+a{
+    color: #ebe4e4;
+    text-decoration: none;
+    font-family: 'montserrat';
+}
+
+a:hover{
+    background-color: #3a7779;
+    padding: 10px;
+    color: rgb(222, 241, 240);
+    font-weight: bold;
+    border-radius: .7rem;
+}
+
+
+img{
+    width: 2rem;
+    height: 2rem;
+}

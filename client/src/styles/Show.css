@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Inter:wght@300&family=Kufam:wght@600;900&family=Montserrat:wght@300&family=Poppins:wght@700&family=Signika&display=swap');
+/*lista de fontes
+font-family: 'DM Serif Display', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kufam', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika', sans-serif;
+*/
+
+body{
+    font-family: 'DM Serif Display';
+}
+
 .center-container-show {
   display: flex;
   flex-direction: column;

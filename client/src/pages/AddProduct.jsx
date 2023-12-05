@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Card } from "react-bootstrap";
+import Header from "../components/Header";
 
 const AddProduct = () => {
   const [productName, setProductName] = useState("");
@@ -28,6 +29,7 @@ const AddProduct = () => {
 
   return (
     <div className="center-container-add">
+      <Header />
       <Card className="custom-card">
         <Card.Body>
           <h2>Adicionar Produto</h2>

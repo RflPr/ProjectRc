@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Card } from 'react-bootstrap';
+import Header from '../components/Header';
 
 const DeleteProduct = () => {
   const [productId, setProductId] = useState('');
@@ -18,6 +19,7 @@ const DeleteProduct = () => {
 
   return (
     <div className="center-container-delete">
+      <Header />
       <Card className="custom-card">
         <Card.Body>
       <h2>Excluir Produto</h2>

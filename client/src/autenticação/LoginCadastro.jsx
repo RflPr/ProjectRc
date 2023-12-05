@@ -6,6 +6,7 @@ import {
 } from "firebase/auth";
 import auth from "./firebase";
 import { Card } from "react-bootstrap";
+import Header from "../components/Header";
 
 const LoginCadastro = () => {
   const [email, setEmail] = useState("");
@@ -54,6 +55,7 @@ const LoginCadastro = () => {
 
   return (
     <div className="center-container-logincadastro">
+    <Header />
       <Card className="custom-card">
         <Card.Body>
           <h2>{isLogin ? "Login" : "Cadastro"}</h2>
