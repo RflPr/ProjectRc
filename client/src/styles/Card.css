@@ -1,0 +1,21 @@
+.custom-card {
+  background-color: #d7dde4;
+  margin: 5px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+}
+.card-body{
+  height: 20%;
+  width: 100%;
+}
+h6{
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+

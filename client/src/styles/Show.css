@@ -1,0 +1,23 @@
+.center-container-show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.product-list-show {
+  display: flex;
+  flex-direction: column;
+}
+.product-list-hor {
+  display:flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  justify-content:center;
+ 
+}
+
+/* .card-body{
+  height: 20%;
+  width: 100%;
+} */
