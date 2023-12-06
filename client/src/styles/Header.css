@@ -16,16 +16,18 @@ body{
 
 nav{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    
     display: flex;
-    top: 0;
+    align-items: center;
+    
     width: 100%;
 }
 
 ul{
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
 li{
@@ -36,13 +38,13 @@ li{
     cursor: pointer;
 }
 
-a{
+li a{
     color: #ebe4e4;
     text-decoration: none;
     font-family: 'montserrat';
 }
 
-a:hover{
+li a:hover{
     background-color: #3a7779;
     padding: 10px;
     color: rgb(222, 241, 240);
@@ -54,4 +56,10 @@ a:hover{
 img{
     width: 2rem;
     height: 2rem;
+}
+.container-flex-rotas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
 }

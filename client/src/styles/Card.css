@@ -22,6 +22,7 @@ body{
   flex-direction: column;
   align-items: center;
   width: 30rem;
+  
 }
 .card-body{
   height: 20%;

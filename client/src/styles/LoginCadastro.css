@@ -29,3 +29,17 @@ font-family: 'Signika', sans-serif;
    margin-top: 10px;
     
 }
+.product-list-botoes{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.product-list-botoes a{
+    color: #1b0f62;
+    text-decoration: none;
+    
+}
+.product-list-botoes h6{
+margin-right: 10px;
+}

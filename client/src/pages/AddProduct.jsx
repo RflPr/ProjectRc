@@ -37,6 +37,7 @@ const AddProduct = () => {
             <label>Nome do Produto:</label>
             <input
               type="text"
+              placeholder="Nome do Produto"
               value={productName}
               onChange={(e) => setProductName(e.target.value)}
             />
@@ -45,6 +46,7 @@ const AddProduct = () => {
             <label>Preço do Produto:</label>
             <input
               type="text"
+              placeholder="Preço do Produto"
               value={productPrice}
               onChange={(e) => setProductPrice(e.target.value)}
             />
@@ -52,6 +54,7 @@ const AddProduct = () => {
           <div className="product-list-add">
             <label>Descrição do Produto:</label>
             <textarea
+            placeholder="Descrição do Produto"
               value={productDescription}
               onChange={(e) => setProductDescription(e.target.value)}
             />

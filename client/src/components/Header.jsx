@@ -5,26 +5,26 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <div>
+    <div className="container-flex-rotas">
         <img src={shop} alt="imagen logo" />
         <nav>
             <ul>
                 <li>
                     <Link to="/" >
-                        criar Login/acessar conta
+                        Acesso usuarios
                     </Link>
                 </li>
                 <li>
-                    <Link to="/show">mostrar todos os produtos</Link>
+                    <Link to="/show">Mostrar Produtos</Link>
                 </li>
                 <li>
-                    <Link to="/add">adicionar produto</Link>
+                    <Link to="/add">Adicionar Produto</Link>
                 </li>
                 <li>
-                    <Link to="/edit">editar produto</Link>
+                    <Link to="/edit">Editar Produto</Link>
                 </li>
                 <li>
-                    <Link to="/delete">apagar produto</Link>
+                    <Link to="/delete">Apagar Produto</Link>
                 </li>
             </ul>
         </nav>

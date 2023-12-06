@@ -82,12 +82,12 @@ const LoginCadastro = () => {
             </div>
           </form>
 
-          <p>
-            {isLogin ? "Não tem uma conta?" : "Já tem uma conta?"}
+          <div className="product-list-botoes">
+            <h6>{isLogin ? "Não tem uma conta?" : "Já tem uma conta?"}</h6>
             <Link to="#" onClick={handleToggle}>
               {isLogin ? "Cadastre-se" : "Faça login"}
             </Link>
-          </p>
+          </div>
         </Card.Body>
       </Card>
     </div>

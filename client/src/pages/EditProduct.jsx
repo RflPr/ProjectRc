@@ -11,7 +11,7 @@ const EditProduct = () => {
 
   const handleEditProduct = async () => {
     try {
-      // Verifique se o productId está definido corretamente antes da requisição
+      
       if (!productId) {
         alert('Por favor, forneça um ID de produto válido.');
         return;

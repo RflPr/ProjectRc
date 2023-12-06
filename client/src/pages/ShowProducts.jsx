@@ -23,7 +23,6 @@ const ShowProducts = () => {
           "Erro ao buscar produtos. Consulte o console para obter detalhes."
         );
       } finally {
-        // Simulando um atraso de 1 segundo antes de parar de mostrar "Carregando..."
         setTimeout(() => {
           setLoading(false);
         }, 1000);
@@ -37,7 +36,7 @@ const ShowProducts = () => {
     try {
       setLoading(true);
       await signOut(auth);
-      // Atraso de 1 minuto (60.000 milissegundos) antes de definir loggedOut como true
+      
       setTimeout(() => {
         setLoggedOut(true);
       }, 60000);
@@ -45,7 +44,7 @@ const ShowProducts = () => {
       console.error("Erro ao fazer logout:", error);
       alert("Erro ao fazer logout. Consulte o console para obter detalhes.");
     } finally {
-      // Simulando um atraso de 1 segundo antes de parar de mostrar "Carregando..."
+      
       setTimeout(() => {
         setLoading(false);
       }, 1000);
