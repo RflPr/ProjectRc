@@ -38,6 +38,7 @@ font-family: 'Signika', sans-serif;
 .product-list-botoes a{
     color: #620f3f;
     text-decoration: none;
+    font-weight: 900;
     
 }
 .product-list-botoes h6{
